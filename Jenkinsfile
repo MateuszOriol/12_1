@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git SWOJ LINK DO REPO
+                git 'https://github.com/MateuszOriol/12_1.git'
             }
         }
         stage('Test') {
